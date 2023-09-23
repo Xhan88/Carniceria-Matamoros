@@ -1,0 +1,9 @@
+.header-presentation {
+  background-image: url("/banner_bg.png");
+  background-repeat: no-repeat;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 710px;
+  background-size: 100%;
+  margin: -10px;
+}
