@@ -5,12 +5,16 @@ const FirstNavBar = () => {
   return (
     <>
     <div className='first-navbar'>
-      <RoomIcon />
-      <p>Matamoros #333 Col. Centro | correo@example.com</p>
-      <ul>
+
+      <section className='section-left'>
+        <RoomIcon className='ub-icon'/>
+        <p className='adress'>Matamoros #333 Col. Centro | correo@example.com</p>
+      </section>
+      
+      <ul >
         <li>Contactanos</li>
-        <li>Sobre Nosotros</li>
-        <li>Sobre nuestros productos</li>
+        <li>Nosotros</li>
+        <li>Productos</li>
       </ul>
       </div>
     </>

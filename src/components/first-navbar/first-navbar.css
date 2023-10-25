@@ -1,4 +1,27 @@
 .first-navbar {
   background: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  
+  }
+.first-navbar ul {
+  display: flex;
+  padding: 0 20px 0 80px;
+}
+.first-navbar li {
+  padding-left: 15px;
+  list-style: none;
+  cursor: pointer;
+}
+.ub-icon{
+  background-color: red;
+  font-size: 30px;
   
 }
+.section-left{
+  display: inline-flex;
+  
+}
+
