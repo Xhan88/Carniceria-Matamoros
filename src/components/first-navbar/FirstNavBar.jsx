@@ -10,9 +10,9 @@ const FirstNavBar = () => {
     
     <div>
       <ul>
-        <li>Contactanos</li>
-        <li>Sobre Nosotros</li>
-        <li>Sobre nuestros productos</li>
+        <li>Contactanos </li>  s
+        <li>Nosotros </li> 
+        <li>Productos</li>
       </ul>
     </div>
       

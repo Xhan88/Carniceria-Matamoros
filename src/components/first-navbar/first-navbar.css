@@ -5,7 +5,8 @@
   background: none;
   color: rgb(244, 236, 236);
   padding: 0 90px 0 90px;
-
+  margin-left: -45px;
+  padding-right: 55px;
   
 }
 
@@ -14,18 +15,24 @@
 }
 .first-navbar li {
   margin-left: 15px;
+  padding-left: 10px;
   list-style: none;
   cursor: pointer;
 }
+li:hover {
+  color: rgb(189, 28, 28);
+  transition: .5s;
+}
 
 .locatio-icon {
-  background: red;
-  padding: 15px 10px 10px 10px;
+  background: rgb(189, 28, 28);
+  padding: 15px 10px 10px 15px;
   margin-top: -11px;
+  margin-right: 15px;
   border-radius: 0 0px 5px 5px;
 }
 .adress-email  {
   display: flex;
-  margin-right: 10px;
+  margin-right: -90px;
 }
 
