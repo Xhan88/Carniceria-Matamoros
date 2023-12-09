@@ -1,38 +1,44 @@
 .first-navbar {
-  font-size: 14px;
+  font-size: .9rem;
   display: flex;
   justify-content: space-between;
   background: none;
   color: rgb(244, 236, 236);
-  padding: 0 90px 0 90px;
-  margin-left: -45px;
-  padding-right: 55px;
-  
+  padding: 0% 5%; 
 }
 
 .first-navbar ul{
   display: flex; 
+  
 }
 .first-navbar li {
   margin-left: 15px;
   padding-left: 10px;
   list-style: none;
   cursor: pointer;
+  
 }
 li:hover {
   color: rgb(189, 28, 28);
   transition: .5s;
 }
 
+/* Icon Location */
+
 .locatio-icon {
-  background: rgb(189, 28, 28);
-  padding: 15px 10px 10px 15px;
-  margin-top: -11px;
+  font-size: 1rem;
+  padding: 13px;
+  background: #df2614;
+  margin-top: -12px;
   margin-right: 15px;
   border-radius: 0 0px 5px 5px;
+}
+.first-navbar .locatio-icon{
+  font-size: 1.2rem;
 }
 .adress-email  {
   display: flex;
   margin-right: -90px;
 }
+
 
