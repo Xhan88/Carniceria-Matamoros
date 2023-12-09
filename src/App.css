@@ -1,3 +1,7 @@
+:root{
+  --red-primary: #DF2614;
+}
+
 body{
   background-color: beige;
   font-family: 'Anton', sans-serif;

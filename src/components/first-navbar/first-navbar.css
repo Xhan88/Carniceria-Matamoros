@@ -1,9 +1,14 @@
+:root{
+  --red-primary: #DF2614;
+  --red-secondary: rgb(189, 28, 28);
+}
+
 .first-navbar {
-  font-size: .9rem;
-  display: flex;
-  justify-content: space-between;
   background: none;
   color: rgb(244, 236, 236);
+  display: flex;
+  font-size: .9rem;
+  justify-content: space-between;
   padding: 0% 5%; 
 }
 
@@ -19,7 +24,7 @@
   
 }
 li:hover {
-  color: rgb(189, 28, 28);
+  color: var(--red-secondary);
   transition: .5s;
 }
 
@@ -28,7 +33,7 @@ li:hover {
 .locatio-icon {
   font-size: 1rem;
   padding: 13px;
-  background: #df2614;
+  background: var(--red-primary);
   margin-top: -12px;
   margin-right: 15px;
   border-radius: 0 0px 5px 5px;
