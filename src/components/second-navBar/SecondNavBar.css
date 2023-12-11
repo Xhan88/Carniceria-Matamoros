@@ -1,0 +1,36 @@
+
+
+.navbar {
+  background-color: #EFE8D9;
+  height: 60px;
+  padding: 15px 0;
+  margin: 0% 5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.car-logo{
+ height: 4.5rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 215px;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0;
+  color: #333; /* Color del texto en el título */
+}

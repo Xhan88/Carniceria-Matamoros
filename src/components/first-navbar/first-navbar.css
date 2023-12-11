@@ -7,7 +7,7 @@
   background: none;
   color: rgb(244, 236, 236);
   display: flex;
-  font-size: .9rem;
+  font-size: .8rem;
   justify-content: space-between;
   padding: 0% 5%; 
 }
@@ -31,10 +31,10 @@ li:hover {
 /* Icon Location */
 
 .locatio-icon {
-  font-size: 1rem;
-  padding: 13px;
+  font-size: 1.1rem;
+  padding: 13.1px;
   background: var(--red-primary);
-  margin-top: -12px;
+  margin-top: -11px;
   margin-right: 15px;
   border-radius: 0 0px 5px 5px;
 }
