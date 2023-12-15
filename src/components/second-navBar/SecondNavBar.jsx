@@ -14,7 +14,9 @@ const SecondNavBar = () => {
             <li className='li-hover'>About</li>
             <li className='li-hover'>Contact</li>
           </ul>
+          <h3 className='phone-number'>378 78 2 0347</h3>
         </div>
+       
       </nav>
     </div>
   );
