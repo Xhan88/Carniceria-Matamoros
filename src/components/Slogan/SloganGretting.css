@@ -1,0 +1,14 @@
+
+
+.gretting {
+  display: flex;
+  justify-content: center;
+  margin-top: -29rem;
+  color: rgb(242, 242, 242);
+  font-size: 6rem;
+  font-family: p;
+  /* font-family: 'Paytone One', sans-serif; */
+  font-family: 'Anton', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Paytone One', sans-serif;
+}
