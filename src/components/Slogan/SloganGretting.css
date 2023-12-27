@@ -7,7 +7,7 @@
   justify-content: center;
   margin-top: -30rem;
   color: rgb(242, 242, 242);
-  font-size: 7rem;
+  font-size: 6rem;
   font-family: 'Anton', sans-serif;
   font-family: 'Nunito', sans-serif;
   font-family: 'Paytone One', sans-serif;
@@ -23,6 +23,7 @@
 }
 
 .btn-order{
+  border: none;
   cursor: pointer;
   background-color: #DF2614;
   display: flex;
@@ -30,9 +31,17 @@
   padding: 15px 5px;
   margin-left: 40rem;
   margin-right: 40rem;
+  margin-bottom: 30px;
   border-radius: 35px;
   color: aliceblue;
+  font-size: 1.1rem;
   font-family: 'Anton', sans-serif;
   font-family: 'Nunito', sans-serif;
   font-family: 'Paytone One', sans-serif;
+  z-index: 1;
+}
+
+.btn-order:hover {
+  background-color: #390803;
+  transition: 0.5s;
 }
