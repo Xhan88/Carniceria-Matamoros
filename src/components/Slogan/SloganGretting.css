@@ -44,3 +44,7 @@
   background-color: #390803;
   transition: 0.5s;
 }
+
+.animate__animated.animate__slideInUp {
+  animation-duration: 3.5s;
+}
