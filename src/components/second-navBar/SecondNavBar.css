@@ -2,8 +2,14 @@
   --red-primary: #DF2614;
 }
 
-.navbar {
+.navbar  {
+  position: sticky;
+  top: 5px;
+  z-index: 100;
+}
 
+.navbar {
+  
   background-color: #EFE8D9;
   height: 60px;
   padding: 15px 0;
