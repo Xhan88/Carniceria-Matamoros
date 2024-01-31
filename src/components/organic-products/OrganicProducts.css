@@ -1,6 +1,23 @@
 .secction-organic{
-  background-color: white;
+  background-color: rgb(239, 239, 239);
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+}
+.secction-organic p{
+  color: rgb(196, 14, 14);
+}
+.secction-organic h1 {
+  color: rgb(14, 14, 14);
+  font-size: 3rem;
+}
+.Organic-cards {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  text-align: center;
+ 
 }
