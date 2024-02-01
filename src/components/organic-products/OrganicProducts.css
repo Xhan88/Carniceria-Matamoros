@@ -16,8 +16,11 @@
 .Organic-cards {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around; 
+  align-items: center;
   background-color: white;
   text-align: center;
- 
+  /* z-index: 2;
+  padding: -30rem;
+  margin-right: 0; */
 }

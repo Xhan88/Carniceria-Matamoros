@@ -9,14 +9,17 @@ const OrganicProducts = () => {
       <p>Nuestros productos organicos</p>
       <h1>Organic Products</h1>
       <img src="../shape.png" alt="" />
-       
-    </div>
-<div className='Organic-cards'>
+
+       <div className="Organic-cards">
           
+          <OrganicCards />
+          <OrganicCards />
           <OrganicCards />
           
       </div>
-      </>
+      
+    </div>
+</>
   )
 }
 
