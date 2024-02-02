@@ -13,8 +13,7 @@ const OrganicProducts = () => {
        <div className="Organic-cards">
           
           <OrganicCards />
-          <OrganicCards />
-          <OrganicCards />
+          
           
       </div>
       

@@ -1,0 +1,15 @@
+.img-organic-card {
+  height: 20rem;
+}
+
+.Organic-cards {
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  text-align: center;
+  /* z-index: 2;
+  padding: -30rem;
+  margin-right: 0; */
+}
