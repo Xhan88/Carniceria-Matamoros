@@ -1,5 +1,7 @@
 .img-organic-card {
+  display: grid;
   height: 20rem;
+  gap: 70px;
 }
 
 .Organic-cards {
@@ -9,7 +11,27 @@
   justify-content: space-around; 
   align-items: center;
   text-align: center;
-  /* z-index: 2;
-  padding: -30rem;
-  margin-right: 0; */
 }
+
+.Organic-cards h4{
+  color: rgb(15, 15, 15);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Paytone One', sans-serif;
+}
+
+.Organic-cards p {
+  color: rgb(15, 15, 15);
+}
+
+.textCard{
+  color: red;
+}
+
+
+
+/* .img-organic-card-rib {
+  height: 16rem;
+  width: 100%;
+  margin-bottom: 61px;
+} */
