@@ -1,6 +1,7 @@
 .img-organic-card {
+  
   display: grid;
-  height: 20rem;
+  height: 18rem;
   gap: 70px;
 }
 
@@ -15,17 +16,27 @@
 
 .Organic-cards h4{
   color: rgb(15, 15, 15);
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   font-family: 'Paytone One', sans-serif;
+  margin-top: 10px;
 }
 
 .Organic-cards p {
-  color: rgb(15, 15, 15);
+  color: rgb(154, 16, 16);
+  margin-top: -20px;
 }
 
-.textCard{
-  color: red;
+.textCardFooter{
+  color: rgb(154, 16, 16);
+}
+
+.card-meat{
+  background-color: white;
+  border-radius: 10px;
+  
+  margin: 20px;
+  position: relative;
 }
 
 
