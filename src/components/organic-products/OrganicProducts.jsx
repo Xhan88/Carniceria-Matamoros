@@ -1,4 +1,5 @@
-import OrganicCards from './OrganicCards.jsx'
+
+import OrganicCards from './OrganicCards'
 import './OrganicProducts.css'
 
 
@@ -13,10 +14,11 @@ const OrganicProducts = () => {
 
        <div className="Organic-cards">
           
-          <OrganicCards />
           
+           <OrganicCards />
           
       </div>
+     
       
     </div>
 </>
