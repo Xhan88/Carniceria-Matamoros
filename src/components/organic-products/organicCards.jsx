@@ -1,4 +1,4 @@
-import '../organic-products/OrganicCard.css'
+import './OrganicCard.css'
 
 const OrganicCards = () => {
   return (

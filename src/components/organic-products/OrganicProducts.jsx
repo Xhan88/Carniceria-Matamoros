@@ -1,5 +1,6 @@
-import './OrganicProducts.css'
 import OrganicCards from './OrganicCards.jsx'
+import './OrganicProducts.css'
+
 
 
 const OrganicProducts = () => {
