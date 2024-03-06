@@ -16,9 +16,11 @@
     "@mui/icons-material": "^5.14.9",
     "@mui/material": "^5.15.2",
     "@mui/styled-engine-sc": "^5.14.10",
+    "@splidejs/react-splide": "^0.7.12",
     "animate.css": "^4.1.1",
-    "bootstrap": "v5.3.3",
+    "bootstrap": "^5.3.3",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
     "react-dom": "^18.2.0",
     "styled-components": "^6.0.8"
   },
