@@ -16,22 +16,22 @@ const images = [
   {
     
     imgPath:
-      'https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/eiliv-aceron-AQ_BdsvLgqA-unsplash.jpg?alt=media&token=2f3d4cd1-9aac-499c-b6f8-abf1084e2856',
+      'https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/carousel1.jpg?alt=media&token=b40345eb-b83d-48ce-a2dd-083e60d5f663',
   },
   {
     
     imgPath:
-      'https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/charlie-solorzano-utTJUcvNXXo-unsplash.jpg?alt=media&token=61bbc301-8e99-418a-8e9e-78e983c410b3',
+      'https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/carousel2.jpg?alt=media&token=302945b3-9b76-4d7a-a825-b6a1d0c91e7f',
   },
   {
     
     imgPath:
-      'https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/kyle-mackie-QH8SHBARVVk-unsplash.jpg?alt=media&token=c00820d6-2170-4364-adce-84792c101e66',
+      'https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/carousel3.jpg?alt=media&token=39a5adf1-e9ed-4399-906f-39bad8ea172c',
   },
   {
     
     imgPath:
-      'https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/madie-hamilton-GXehL5_crJ4-unsplash.jpg?alt=media&token=55fa3d3b-01b4-42c7-b25a-1b02a8b6eb0f',
+      'https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/madie-hamilton-GXehL5_crJ4-unsplash.jpg?alt=media&token=b634a433-123a-48dc-ad42-ac05c1d591e6',
   },
 ];
 
@@ -78,7 +78,8 @@ function SwipeableTextMobileStepper() {
               <Box
                 component="img"
                 sx={{
-                  height: 900,
+                  loading:"lazy",
+                  height: 800,
                   alignItems: 'center',
                   display: 'block',
                   maxWidth: 1500,
