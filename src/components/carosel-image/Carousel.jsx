@@ -79,8 +79,8 @@ function SwipeableTextMobileStepper() {
                 component="img"
                 sx={{
                   loading:"lazy",
-                  height: 800,
-                  alignItems: 'center',
+                  height: 700,
+                  justifycontent: 'center',
                   display: 'block',
                   maxWidth: 1500,
                   overflow: 'hidden',
