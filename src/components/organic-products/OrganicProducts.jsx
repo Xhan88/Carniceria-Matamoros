@@ -1,5 +1,6 @@
 
-import OrganicCards from './OrganicCards'
+
+import OrganicCards from '../OrganicCards/OrganicCards'
 import './OrganicProducts.css'
 
 
