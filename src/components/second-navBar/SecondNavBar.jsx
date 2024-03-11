@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import '../second-navBar/secondNavBar.css';
+import './secondNavBar.css'
 
 const SecondNavBar = () => {
   const [isSticky, setIsSticky] = useState(false);
@@ -9,14 +9,14 @@ const SecondNavBar = () => {
     const handleScroll = () => {
       const offset = window.scrollY;
 
-      // Ajusta el valor (100 en este caso) según sea necesario
+      
       setIsSticky(offset > 50);
     };
 
-    // Escucha el evento de scroll
+    
     window.addEventListener('scroll', handleScroll);
 
-    // Limpia el evento al desmontar el componente
+    
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
