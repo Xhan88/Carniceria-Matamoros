@@ -1,0 +1,8 @@
+[[redirects]]
+  from = "/styles/*"
+  to = "/path/to/your/css/files/:splat"
+  status = 200
+  force = true
+
+[build]
+  command = "yarn build --debug"

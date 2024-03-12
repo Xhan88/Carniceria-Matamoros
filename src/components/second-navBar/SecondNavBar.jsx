@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import './secondNavBar.css'
+import './secondNavBar.css';
 
 const SecondNavBar = () => {
   const [isSticky, setIsSticky] = useState(false);
