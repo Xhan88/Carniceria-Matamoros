@@ -12,7 +12,7 @@ Este proyecto es una página web dinámica y elegante para Carnicería Matamoros
 
 ## Vista Previa
 
-![Vista Previa del Sitio]([URL_DE_TU_IMAGEN_O_GIF](https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/Captura%20de%20Pantalla%202024-03-11%20a%20la(s)%2011.46.48%20p.m..png?alt=media&token=04d6f219-c700-46c0-af96-f2375d66fead))
+![Vista Previa del Sitio](https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/Captura%20de%20Pantalla%202024-03-11%20a%20la(s)%2011.46.48%20p.m..png?alt=media&token=04d6f219-c700-46c0-af96-f2375d66fead)
 
 [Ver Sitio en Vivo](https://main--dainty-rugelach-c8de04.netlify.app/)
 
