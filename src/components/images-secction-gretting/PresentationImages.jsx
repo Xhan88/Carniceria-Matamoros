@@ -1,5 +1,5 @@
 import React from 'react'
-import '../images-secction-gretting/PresentationImages.css'
+import './presentationImages.css'
 
 const PresentationImages = () => {
   return (

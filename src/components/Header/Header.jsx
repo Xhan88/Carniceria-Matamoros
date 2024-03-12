@@ -1,4 +1,4 @@
-import "../Header/header.css"
+import "./header.css"
 import FirstNavBar from "../first-navbar/FirstNavBar"
 import SecondNavBar from "../second-navBar/SecondNavBar"
  

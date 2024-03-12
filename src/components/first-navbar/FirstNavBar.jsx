@@ -1,5 +1,5 @@
 import RoomIcon from '@mui/icons-material/Room';
-import '../first-navbar/first-navbar.css';
+import './first-navbar.css';
 
 const FirstNavBar = () => {
   return (
