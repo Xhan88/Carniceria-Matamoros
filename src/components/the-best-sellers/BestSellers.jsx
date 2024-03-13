@@ -1,4 +1,6 @@
 import './BestSeller.css'
+import BestSellersCards from './BestSellersCards'
+
 
 const BestSellers = () => {
   return (
@@ -9,6 +11,7 @@ const BestSellers = () => {
       <img src="./shape.png" alt="" />
     </div>
 
+    <BestSellersCards />
     </>
   )
 }

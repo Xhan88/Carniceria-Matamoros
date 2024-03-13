@@ -1,11 +1,14 @@
-import React from 'react'
 
-const BestSellersCards = () => {
+const BestSellersCards = (props) => {
+  const {title, description, price, image } = props
   return (
     <>
-    <div className='container-best-seller'>
+    <div >
       <div>
-
+        <p> fff{title}</p>
+        <img src={image} alt={title} />
+        <p>{description}</p>
+        <h3>{price}</h3>
       </div>
     </div>
     </>
