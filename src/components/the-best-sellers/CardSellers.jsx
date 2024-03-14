@@ -1,5 +1,5 @@
+import BestSellersCards from "./BestSellersCards";
 
-import BestSellersCards from './BestSellersCards';
 
 
 const CardSellers = () => {
@@ -33,7 +33,6 @@ const CardSellers = () => {
 
   return (
     <div>
-      {/* Mapea sobre los datos de la tarjeta y crea una instancia de Card para cada uno */}
       {cardData.map((card, index) => (
         <BestSellersCards key={index} {...card} />
       ))}

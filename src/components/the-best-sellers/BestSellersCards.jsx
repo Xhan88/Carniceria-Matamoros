@@ -1,6 +1,7 @@
 
-const BestSellersCards = (props) => {
-  const {title, description, price, image } = props
+const BestSellersCards = ({title, description, price, image }) => {
+  // const {title, description, price, image } = props;
+  // console.log(props)
   return (
     <>
     <div >
@@ -15,4 +16,4 @@ const BestSellersCards = (props) => {
   )
 }
 
-export default BestSellersCards
+export default BestSellersCards;
