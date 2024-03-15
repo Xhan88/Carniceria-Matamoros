@@ -1,4 +1,4 @@
-import BestSellersCards from "./BestSellersCards";
+import BestSellersCards from "./components/the-best-sellers/BestSellersCards";
 
 
 
@@ -30,8 +30,9 @@ const CardSellers = () => {
       price: 200,
     },
   ];
-
+  console.log(cardData)
   return (
+    
     <div>
       {cardData.map((card, index) => (
         <BestSellersCards key={index} {...card} />

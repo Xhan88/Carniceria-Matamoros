@@ -1,7 +1,6 @@
 
-const BestSellersCards = ({title, description, price, image }) => {
-  // const {title, description, price, image } = props;
-  // console.log(props)
+const BestSellersCards = (props) => {
+  const {title, description, price, image } = props;
   return (
     <>
     <div >
