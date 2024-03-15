@@ -1,13 +1,12 @@
 
 import './App.css'
+import CardSellers from './components/the-best-sellers/CardSellers'
 import Header from './components/Header/Header'
 import SloganGretting from './components/Slogan/SloganGretting'
 import SwipeableTextMobileStepper from './components/carosel-image/Carousel'
-// import Carousel from './components/carosel-image/Carousel'
 import ProductsOffer from './components/offer-secction/ProductsOffer'
 import OrganicProducts from './components/organic-products/OrganicProducts'
 import BestSellers from './components/the-best-sellers/BestSellers'
-import BestSellersCards from './components/the-best-sellers/BestSellersCards'
 
 
 function App() {
@@ -20,7 +19,7 @@ function App() {
       <OrganicProducts />
       <SwipeableTextMobileStepper />
       <BestSellers />
-      <BestSellersCards />
+      <CardSellers />
     </>
   )
     

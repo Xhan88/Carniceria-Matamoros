@@ -1,4 +1,4 @@
-import BestSellersCards from "./components/the-best-sellers/BestSellersCards";
+import BestSellersCards from "./BestSellersCards";
 
 
 
@@ -8,7 +8,7 @@ const CardSellers = () => {
     {
       title: 'Rib-Eye',
       description: 'Description for Card 1',
-      image: 'https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/rib-eye.jpg?alt=media&token=b68eef1c-dd5b-49bf-badc-a4fd3533029c',
+      image: 'https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/rib-eye.jpg?alt=media&token=7c93f6f0-7eb8-42fc-b41d-0202f49fa10f',
       price: 200,
     },
     {
@@ -30,7 +30,7 @@ const CardSellers = () => {
       price: 200,
     },
   ];
-  console.log(cardData)
+  
   return (
     
     <div>

@@ -1,0 +1,25 @@
+.image-bestseller {
+  max-width: 10rem;
+  border-radius: 100%;
+}
+
+.containeer-seller {
+  background-color: rgb(250, 249, 247);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 40rem;
+  margin: 20px;
+  border-radius: 15px;
+}
+/* .container-seller{
+  padding: 20px;
+  border-radius: 5px;
+}
+.card-best-sellers {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  background-color: azure;
+  margin: 30px;
+} */
+
