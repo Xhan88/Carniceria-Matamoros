@@ -6,14 +6,21 @@
 .content-seller {
   background-color: rgb(250, 249, 247);
   border-radius: 15px;
-  
 }
 
-.container-sellers{
+.best-seller-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  max-width: 100%;
+}
+
+
+/* .container-sellers{
   display: grid;
   grid-template-columns: 1fr 1fr;
   
-}
+} */
 /* .container-seller{
   padding: 20px;
   border-radius: 5px;
@@ -25,4 +32,5 @@
   background-color: azure;
   margin: 30px;
 } */
+
 
