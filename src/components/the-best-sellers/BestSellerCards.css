@@ -1,18 +1,25 @@
 .image-bestseller {
-  width: 10rem;
+  width: 8rem;
   border-radius: 100%;
 }
 
 .content-seller {
   background-color: rgb(250, 249, 247);
   border-radius: 15px;
+  height: 12rem;
+  padding: 10px;
 }
 
 .best-seller-cont {
+ 
+}
+.card-component{
+  margin-top: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 20px;
   max-width: 100%;
+  
 }
 
 
