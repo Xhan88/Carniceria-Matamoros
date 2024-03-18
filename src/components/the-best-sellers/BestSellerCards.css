@@ -1,26 +1,41 @@
 .image-bestseller {
   width: 8rem;
+  height: 8rem;
   border-radius: 100%;
+  padding-top: 10px;
 }
 
 .content-seller {
   background-color: rgb(250, 249, 247);
   border-radius: 15px;
-  height: 12rem;
-  padding: 10px;
+  height: 10rem;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.best-seller-cont {
- 
-}
+
 .card-component{
-  margin-top: 4rem;
+  margin: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   max-width: 100%;
   
 }
+
+.text-p {
+ display: block;
+ margin-top: 30px;
+ margin-left: -40px;
+}
+
+.content-seller h3 {
+  color: rgb(178, 41, 41);
+  margin-top: 3rem;
+}
+
+
 
 
 /* .container-sellers{
