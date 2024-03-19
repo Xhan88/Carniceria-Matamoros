@@ -8,7 +8,7 @@ const CardSellers = () => {
     {
       title: 'Rib-Eye',
       description: 'El rib eye es un corte de carne de res jugoso y bien marmoleado, apreciado por su sabor y terneza excepcionales.',
-      image: 'https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/rib-eye-removebg-preview%20(1).png?alt=media&token=9ce81b20-ba82-428d-81c5-17ac8ecb0d62',
+      image: 'https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/ribeye.png?alt=media&token=3d6c200c-caf3-41aa-8719-554303e272ea',
       price: 186,
     },
     {
