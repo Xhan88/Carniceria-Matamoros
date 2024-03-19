@@ -1,5 +1,4 @@
-.img-organic-card {
-  
+.img-organic-card { 
   display: grid;
   height: 18rem;
   gap: 70px;
@@ -32,7 +31,7 @@
 }
 
 .card-meat{
-  background-color: white;
+  background-color: rgb(250, 249, 247);
   border-radius: 10px;
   
   margin: 20px;
