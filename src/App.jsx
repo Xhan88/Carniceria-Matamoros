@@ -7,6 +7,7 @@ import SwipeableTextMobileStepper from './components/carosel-image/Carousel'
 import ProductsOffer from './components/offer-secction/ProductsOffer'
 import OrganicProducts from './components/organic-products/OrganicProducts'
 import BestSellers from './components/the-best-sellers/BestSellers'
+import OurTeam from './components/Our-Team/OurTeam'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <SwipeableTextMobileStepper />
       <BestSellers />
       <CardSellers />
+      <OurTeam />
     </>
   )
     

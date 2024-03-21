@@ -1,0 +1,9 @@
+.container-personal {
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+}
+
+.container-personal img {
+  height: 10rem;
+}

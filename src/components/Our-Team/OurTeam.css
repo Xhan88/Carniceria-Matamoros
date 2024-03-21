@@ -1,0 +1,9 @@
+ .our-team {
+   background-image: url('https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/bg-our-team.png?alt=media&token=fab4c04b-fb75-48b4-845d-7d63b0af53d6');
+   background-size: cover;
+    background-position: center;
+    padding: 120px 0 90px;
+    position: relative;
+    z-index: 1;
+
+ }
