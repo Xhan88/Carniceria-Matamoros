@@ -5,5 +5,7 @@
 }
 
 .container-personal img {
-  height: 10rem;
+  height: 20rem;
+  margin: 10px;
+  margin-top: -25rem;
 }
