@@ -8,6 +8,7 @@ import ProductsOffer from './components/offer-secction/ProductsOffer'
 import OrganicProducts from './components/organic-products/OrganicProducts'
 import BestSellers from './components/the-best-sellers/BestSellers'
 import OurTeam from './components/Our-Team/OurTeam'
+import Footer from './components/footer/Footer'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <BestSellers />
       <CardSellers />
       <OurTeam />
+      <Footer />
     </>
   )
     

@@ -4,6 +4,14 @@ import './SecondNavBar.css';
 
 const SecondNavBar = () => {
   const [isSticky, setIsSticky] = useState(false);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Para un desplazamiento suave
+    });
+  };
+  
+  // <button onClick={scrollToTop}>Volver arriba</button>
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,7 +34,7 @@ const SecondNavBar = () => {
     <div>
       <nav className={`navbar ${isSticky ? 'sticky' : ''}`}>
         <div className="navbar-container">
-          <img className='car-logo' src="./carn-logo.png" alt="" />
+          <img onClick={scrollToTop} className='car-logo' src="./carn-logo.png" alt="" />
           <ul>
             <li className='li-hover'>Home</li>
             <li className='li-hover'>About</li>
