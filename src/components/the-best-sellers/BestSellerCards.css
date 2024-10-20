@@ -51,6 +51,12 @@
   font-family: 'Paytone One', sans-serif;
 }
 
+@media(max-width: 480px) {
+  .card-component {
+    flex-direction: column;
+  }
+}
+
 
 
 /* .container-sellers{

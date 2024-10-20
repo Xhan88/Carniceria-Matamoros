@@ -86,4 +86,9 @@ ul {
   .car-logo{
     margin-left: 90px;
   }
+  
+}
+
+@media (max-width: 480px) {
+  
 }
