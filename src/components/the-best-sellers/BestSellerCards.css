@@ -53,8 +53,22 @@
 
 @media(max-width: 480px) {
   .card-component {
+    display: flex;
     flex-direction: column;
+    margin-left: 0%;
   }
+  .content-seller{
+    height: 50vh;
+    width: 80vw;
+    flex-direction: column;
+    padding: 10%;
+  }
+  .content-seller p {
+    margin-left: -10%;
+  }
+  .image-bestseller {
+    justify-content: center;
+  } 
 }
 
 
