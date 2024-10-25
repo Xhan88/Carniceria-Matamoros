@@ -88,36 +88,37 @@ ul {
   }
   
 }
-
 @media only screen and (max-width: 480px) {
   /* Estilos del botón hamburguesa y menú responsive */
-.menu-toggle {
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
-}
+  .menu-toggle {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: auto;
+  }
 
-.navbar-menu {
-  list-style: none;
-  display: flex;
-  margin-left: 60px;
-  transition: max-height 0.3s ease-in-out;
-}
+  .car-logo {
+    padding-left: 10px;
+  }
 
-@media (max-width: 768px) {
   .navbar-menu {
+    list-style: none;
+    display: flex;
     flex-direction: column;
     position: absolute;
     top: 60px;
-    right: 0;
+    right: 0; /* Hace que el menú aparezca desde la derecha */
     background-color: #EFE8D9;
     width: 100%;
     max-height: 0;
     overflow: hidden;
+    transition: max-height 0.3s ease-in-out, right 0.3s ease-in-out;
   }
 
   .navbar-menu.open {
     max-height: 300px; /* Ajusta según el número de elementos del menú */
+    right: 0; /* Asegura que se muestre desde el lado derecho */
   }
 
   .menu-toggle {
@@ -132,11 +133,10 @@ ul {
   }
 
   .car-logo {
-    margin-left: 0;
+    margin-left: -20%;
   }
 
   .phone-number {
     display: none; /* Opcional: esconder en móviles si no es necesario */
   }
-}
 }
