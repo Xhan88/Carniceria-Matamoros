@@ -48,3 +48,12 @@
 .animate__animated.animate__slideInUp {
   animation-duration: 3.5s;
 }
+
+@media ( max-width: 480px) {
+  .btn-order{
+    display: none;
+  }
+  .gretting {
+    font-size: 6rem;
+  }
+}

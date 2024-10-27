@@ -32,3 +32,14 @@
 
 }
 
+@media ( max-width: 480px ) {
+  .img-rib {
+    height: 15rem;
+    width: 15rem;
+    margin: 0 auto;
+  }
+  .meet{
+    display: none;
+  }
+}
+
