@@ -1,19 +1,4 @@
-/* .header-presentation {
-  background-image: url("/banner_bg.png");
-  background-repeat: no-repeat;
-  padding: 0px;
-  box-sizing: border-box;
-  height: 710px;
-  background-size: 100%;
-  margin: -10px;
-}
 
-@media ( max-width: 480px ) {
-  .header-presentation {
-    background-size: contain;
-   position: relative;
-  }
-} */
 
 .header-presentation {
   background-image: url("/banner_bg.png");
@@ -22,14 +7,14 @@
   box-sizing: border-box;
   height: 710px;
   background-size: 100%;
-  background-position: center; /* Para centrar horizontalmente */
+  background-position: center; 
   margin: -23px;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 320px) {
   .header-presentation {
-    height: 600px; /* Ajusta esta altura para extender la imagen hacia abajo */
-    background-size: cover; /* Esto hará que la imagen se expanda completamente */
-    background-position: center center; /* Centra la imagen vertical y horizontalmente */
+    height: 600px; 
+    background-size: cover; 
+    background-position: center center; 
   }
 }

@@ -32,7 +32,7 @@
 
 }
 
-@media ( max-width: 480px ) {
+@media ( min-width: 320px ) {
   .img-rib {
     height: 15rem;
     width: 15rem;
