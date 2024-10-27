@@ -51,7 +51,7 @@
   font-family: 'Paytone One', sans-serif;
 }
 
-@media(min-width: 430px) {
+@media(max-width: 320px) {
   .card-component {
     display: flex;
     flex-direction: column;

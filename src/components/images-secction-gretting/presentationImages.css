@@ -32,10 +32,10 @@
 
 }
 
-@media ( min-width: 320px ) {
+@media ( max-width: 320px ) {
   .img-rib {
     height: 15rem;
-    width: 15rem;
+    width: 16rem;
     margin: 0 auto;
   }
   .meet{

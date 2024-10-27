@@ -45,7 +45,7 @@
   width: 100%;
   margin-bottom: 61px;
 } */
- @media (min-width: 320px) {
+ @media (max-width: 320px) {
   .Organic-cards{
     flex-direction: column;
   }
