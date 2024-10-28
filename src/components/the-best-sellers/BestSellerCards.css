@@ -51,24 +51,32 @@
   font-family: 'Paytone One', sans-serif;
 }
 
-@media(min-width: 360px) {
+@media(max-width: 1220px) {
   .card-component {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-left: 0%;
   }
-  .content-seller{
+ 
+  .content-seller {
     height: 50vh;
     width: 80vw;
     flex-direction: column;
+    align-items: center;
     padding: 10%;
   }
   .content-seller p {
     margin-left: -10%;
+    height: 2rem;
+    align-items: center;
   }
   .image-bestseller {
     justify-content: center;
   } 
+  .text-title p{
+    align-items: center;
+  }
 }
 
 

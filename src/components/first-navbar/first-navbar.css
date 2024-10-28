@@ -76,7 +76,7 @@ li:hover {
 }
 
 /* Estilos responsive para móviles (ancho máximo 480px) */
-@media (min-width: 360px) {
+@media(max-width: 1220px) {
  .first-navbar{
   display: none;
  }
