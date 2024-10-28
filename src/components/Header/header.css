@@ -11,7 +11,7 @@
   margin: -23px;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 360px) {
   .header-presentation {
     height: 600px; 
     background-size: cover; 
