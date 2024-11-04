@@ -44,3 +44,15 @@
   background-color: beige;
   border-radius: 150rem;
 }
+
+@media( max-width: 1220px) {
+  .card-images {
+    flex-direction: column;
+    justify-content: center;
+   background-size: auto;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -10,7 +10,7 @@ const FirstNavBar = () => {
           Matamoros #333 Col. Centro || correo@example.com
         </p>
 
-        <div>
+        <div  className='list-pages'>
           <ul>
             <li>Contactanos </li>
             <li>Nosotros </li>

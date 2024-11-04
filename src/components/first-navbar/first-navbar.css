@@ -14,7 +14,12 @@
 
 .first-navbar ul{
   display: flex; 
+  align-items: center;
   
+}
+.list-pages {
+  display: flex;
+  align-items: center;
 }
 .first-navbar li {
   margin-left: 15px;
@@ -34,7 +39,6 @@ li:hover {
   font-size: 1.1rem;
   padding: 13.1px;
   background: var(--red-primary);
-  margin-top: -11px;
   margin-right: 15px;
   border-radius: 0 0px 5px 5px;
 }
@@ -43,6 +47,7 @@ li:hover {
 }
 .adress-email  {
   display: flex;
+  align-items: center;
   margin-right: -90px;
 }
 
