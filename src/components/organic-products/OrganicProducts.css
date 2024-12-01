@@ -21,4 +21,13 @@
 }
 
 
+@media(max-width: 1220px){
+.secction-organic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+}
+
 

@@ -49,4 +49,12 @@
   .Organic-cards{
     flex-direction: column;
   }
+  .card-meat {
+    width: 80%;
+  }
+  .img-organic-card {
+    height: 15rem;
+   
+  }
+  
  }
