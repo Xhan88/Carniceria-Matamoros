@@ -1,13 +1,17 @@
- .our-team {
-   background-image: url('https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/bg-our-team.png?alt=media&token=fab4c04b-fb75-48b4-845d-7d63b0af53d6');
-   background-size: cover;
-    background-position: center;
-    padding: 120px 0 90px;
-    position: relative;
-    z-index: 1;
-    color: white;
-    padding: 30px;
- }
+.our-team {
+  background: 
+      linear-gradient(315deg, rgba(55, 2, 8, 1) 39%, rgba(205, 0, 16, 0.95) 60%), 
+      url('https://firebasestorage.googleapis.com/v0/b/carniceria-matamoros.appspot.com/o/bg-our-team.png?alt=media&token=fab4c04b-fb75-48b4-845d-7d63b0af53d6');
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0 90px;
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+
 
  .our-team h3 {
   font-family: "Pacifico", cursive;

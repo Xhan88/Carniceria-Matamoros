@@ -1,6 +1,9 @@
 :root {
   --red-primary: #DF2614;
 }
+.menu-toggle {
+  display: none;
+}
 
 .navbar  {
   position: sticky;
