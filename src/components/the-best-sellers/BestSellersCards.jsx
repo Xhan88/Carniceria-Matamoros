@@ -1,4 +1,4 @@
-import './BestSellerCards.css';
+import './BestSellerCard.css'
 
 const BestSellersCards = (props) => {
   const { title, description, price, image } = props;
