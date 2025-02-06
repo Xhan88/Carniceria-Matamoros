@@ -53,7 +53,7 @@ function SwipeableTextMobileStepper() {
   };
 
   return (
-    <Box sx={{ maxWidth: 1500, flexGrow: 1 }}>
+    <Box sx={{ maxWidth: 1400, flexGrow: 1 }}>
       <Paper
         square
         elevation={0}
@@ -78,11 +78,11 @@ function SwipeableTextMobileStepper() {
               <Box
                 component="img"
                 sx={{
-                  loading:"lazy",
+                  loading:"lazyLoad",
                   height: 700,
                   justifycontent: 'center',
                   display: 'block',
-                  maxWidth: 1500,
+                  maxWidth: 1400,
                   overflow: 'hidden',
                   width: '100%',
                 }}

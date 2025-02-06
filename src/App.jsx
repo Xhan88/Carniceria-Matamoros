@@ -9,6 +9,7 @@ import OrganicProducts from './components/organic-products/OrganicProducts'
 import BestSellers from './components/the-best-sellers/BestSellers'
 import OurTeam from './components/Our-Team/OurTeam'
 import Footer from './components/footer/Footer'
+import SeconCarrusel from './components/seconnd-carrusel/SeconCarrusel'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <ProductsOffer />
       <OrganicProducts />
       <SwipeableTextMobileStepper />
+      {/* <SeconCarrusel /> */}
       <BestSellers />
       <CardSellers />
       <OurTeam />
